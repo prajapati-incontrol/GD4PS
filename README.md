@@ -1,11 +1,32 @@
-# Graph Data for Power Flow 
-## Power Calculation
-- Faster power flow calculation. Traditional ML does not exploit intrinsic network topology of power systems, resulting in lower accuracy.
-- ChebNet already available.
-- Does not simply imitate NR Solver.
-- Faster than even NR Solver.
-### Research Directions 
-1. The distribution networks are constantly changing. When the nodes and branches of the distribution networks increase, the trained models cannot be used directly. So, how to fine tune the trained model 
-through transfer learning so that the model can be applied to the expanded distribution networks.
-2. Alternative GCNs model and further investigation about the architecture improvements can be considered in future.
-   
+# Review of topics covered in ML for Graph Data Course: CS4350
+
+## Lecture 1: Graph terminology
+- simple graphs: w/o self-loops and multi-edges
+- multi-graphs: with self-loops and multi-edges
+- Sub-graph = Induced graph = subset of graph
+- trail, path, walk, cycle
+- Adjacency matrix ($O(N^2)$), gaph density, adjacency list ($O(E)$), edge list
+- Directed vs. Undirected Graphs
+- Connected vs. Disconnected Graphs
+-                                                       
+## Lecture 2: Graph ML via Regularization
+
+## Lecture 3: Traditional Graph ML Methods 
+
+## Lecture 4: Unsupervised Graph Representation Learning
+
+## Lecture 5: Graph Convolutional Neural Networks 
+
+## Lecture 6: GNN Architectures
+
+## Lecture 7: Spectral Analysis 
+
+## Lecture 8: Graph-Time Learning
+
+## Lecture 9: Learning over Temporal Graphs
+
+## Lecture 10: Scalability 
+
+## Lecture 11: Interpretability
+
+## Lecture 12: Privacy
